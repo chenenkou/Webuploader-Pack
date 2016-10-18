@@ -1,8 +1,8 @@
 # Webuploader-Pack
 WebUploader文件上传组件封装
 
-Webuploader-Pack的使用比较简单，你只需要在原有Webuploader的基础上引入baiduUpload.js类，实例化一个baiduUpload的对象并传入相关配置，就可以对文件进行操作了。
 ## Webuploader-Pack 怎么用？
+Webuploader-Pack的使用比较简单，你只需要在原有Webuploader的基础上引入baiduUpload.js类，实例化一个baiduUpload的对象并传入相关配置，就可以对文件进行操作了。
 
 ``` php
 // 定义上传配置
