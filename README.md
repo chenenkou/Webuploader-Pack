@@ -7,9 +7,9 @@ Webuploader-Pack的使用比较简单，你只需要在原有Webuploader的基�
 ``` php
 // 定义上传配置
  var options = {
-     pick: "#picker",
-     uploader: "#uploader",
-     server: "../../server/fileupload.php",
+     pick: "#picker", // 上传按钮
+     uploader: "#uploader", // 上传容器
+     server: "../../server/fileupload.php", // 上传服务器
  };
  // 实例上传对象
  var Uploader = new BaiduUpload(options);
