@@ -11,8 +11,15 @@ Webuploader-Pack的使用比较简单，你只需要在原有Webuploader的基�
      uploader: "#uploader", // 上传容器
      server: "../../server/fileupload.php", // 上传服务器
  };
+ var setting = {
+    // 上传中进度处理     
+    uploadProgress: function (that, file, percentage) {
+        var percent = parseInt(percentage * 100);
+        console.log(percent);
+    }
+ }
  // 实例上传对象
- var Uploader = new BaiduUpload(options);
+ var Uploader = new BaiduUpload(options, setting);
  // 调用上传并传入回调
  Uploader.upload(function(file, response) {
      var $uploader = $(options.uploader);
