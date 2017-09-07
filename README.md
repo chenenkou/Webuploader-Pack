@@ -56,3 +56,8 @@ var options = {
     }
 };
 ```
+
+## Webuploader-Pack Demo运行
+```
+php -S localhost:8088
+```
