@@ -9,7 +9,10 @@ Webuploader-Pack的使用比较简单，你只需要在原有Webuploader的基�
  var options = {
      pick: "#picker", // 上传按钮
      uploader: "#uploader", // 上传容器
-     server: "../../server/fileupload.php", // 上传服务器
+     server: window.location.protocol + '//upload.qiniup.com/', // 上传服务器
+     formData: {
+         token : "" // 七牛上传的TOKEN
+     }
  };
  var setting = {
     // 上传中进度处理     
