@@ -32,7 +32,7 @@ $(function() {
             uploader: "#uploader2",
             accept: {
                 extensions: 'zip',
-                mimeTypes: '"application/x-zip-compressed"'
+                mimeTypes: 'application/x-zip-compressed'
             },
             server : window.location.protocol + '//upload.qiniup.com/',
             formData: {
